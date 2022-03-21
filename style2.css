@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "poppins";
+
+}
+
+
+nav {
+    width: 200px;
+    background-color: rgb(51, 47, 54);
+}
+
+nav a,
+nav button{
+    color: white;
+    margin: 0 20px;
+    font-size: 1.3em;
+}
+nav button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flexbox;
+  
+}
+nav .meunu-contact {
+    position: relative;
+}
+nav .meunu-contact .content{
+    display: none; 
+}
+nav .meunu-contact:hover .content{
+    display: block;
+    display: flex;
+    flex-direction: column ;
+    position: inherit;
+    background-color: brown;
+    left: 195px;
+    top: -24px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    width: 200px;
+        
+}
+nav  .content a{
+    color: black;
+}
+div a {
+    position: inherit;
+    width: 198px;
+    left: -30px;
+}
+li:hover{
+    border-left: 5px solid brown;
+    background-color: RGBa(228, 77,38,0.15);
+
+
+}
+div a:hover{
+    border-left: 2px solid #1b1412 ;
+    background-color: RGBa( 81,77,87.15);
+
+}
